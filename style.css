@@ -105,7 +105,7 @@ address { font-style: normal; }
 p { margin-top: 0; line-height: 2; }
 
 /* Reusable Components Style */
-.feature .feature-icon, .feature .feature-title, .step .step-title { background: -webkit-linear-gradient(90deg, #b0e092, #83c9bb); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+.feature .feature-icon, .feature .feature-title, .step .step-title { background: -webkit-linear-gradient(90deg, #0B99EB, #83c9bb); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
 
 .fullwidth-block { padding: 50px 0; }
 
@@ -115,7 +115,7 @@ p { margin-top: 0; line-height: 2; }
 
 .feature { margin: 30px 0; text-align: center; }
 .feature .feature-icon { font-size: 64px; font-size: 4.26667em; color: #8dceb2; }
-.feature .feature-title { font-size: 24px; font-size: 1.6em; }
+.feature .feature-title { font-size: 24px; font-size: 1.8em; font-weight: bold; }
 
 .step { margin-bottom: 30px; }
 .step .step-title { font-size: 15px; font-size: 1rem; text-transform: uppercase; font-weight: 400; color: #8dceb2; }
@@ -154,7 +154,7 @@ p { margin-top: 0; line-height: 2; }
 /**** disabling Isotope CSS3 transitions ****/
 .filterable-items.no-transition, .filterable-items.no-transition .filterable-item, .filterable-items .filterable-item.no-transition { -webkit-transition-duration: 0s; -moz-transition-duration: 0s; -ms-transition-duration: 0s; -o-transition-duration: 0s; transition-duration: 0s; }
 
-.map { position: absolute; z-index: -1; top: 0; left: 0; right: 0; bottom: 0; }
+.map { position: absolute; z-index: -1; top: 0; left: 0; right: 0; bottom: 0;}
 .map:after { content: " "; background-color: rgba(0, 0, 0, 0.75); position: absolute; top: 0; left: 0; right: 0; bottom: 0; }
 
 .contact-detail { margin-bottom: 30px; }
@@ -516,7 +516,7 @@ p { margin-top: 0; line-height: 2; }
 /* Header Styles */
 .site-header { background-size: cover; position: relative; z-index: 1; padding: 95px 0; text-align: center; }
 .home .site-header { padding-bottom: 300px; }
-.site-header:after { content: " "; position: absolute; left: 0; right: 0; top: 0; bottom: 0; background-image: linear-gradient(90deg, #b0e092, #83c9bb); opacity: .8; z-index: -1; }
+.site-header:after { content: " "; position: absolute; left: 0; right: 0; top: 0; bottom: 0; opacity: .8; z-index: -1; }
 .site-header .container { position: relative; }
 
 .main-navigation { position: absolute; left: 0; top: 0; }
@@ -530,16 +530,16 @@ p { margin-top: 0; line-height: 2; }
 .main-navigation .menu .current-menu-item a { color: #8dceb2; }
 
 .branding { margin-bottom: 50px; }
-.branding .site-title { text-transform: uppercase; color: white; margin: 0; font-family: "Roboto Condensed", "Open Sans", sans-serif; font-size: 69px; font-size: 4.6em; line-height: 1; }
+.branding .site-title { text-transform: uppercase; color: #195D70; margin: 0; font-family: "Roboto Condensed", "Open Sans", sans-serif; font-size: 65px; font-size: 10em; font-weight: bold; line-height: 1; }
 .branding .site-description { text-transform: uppercase; color: white; margin: 0; font-family: "Roboto Condensed", "Open Sans", sans-serif; font-size: 24px; font-size: 1.6em; font-weight: 300; }
 
 .social-links a { display: inline-block; width: 48px; height: 48px; border: 2px solid white; border-radius: 50%; line-height: 1.8; color: white; font-size: 24px; font-size: 1.6em; transition: .3s ease; }
 .social-links a:hover { color: #b0e092; border-color: #b0e092; }
 
 /* Content Styles */
-.section-title { text-align: center; text-transform: uppercase; font-size: 48px; font-size: 3.2em; color: #565859; margin: 0; }
+.section-title { text-align: center; text-transform: uppercase; font-size: 48px; font-size: 3em; font-weight: bold; color: #0B99EB; margin: 0; }
 
-.section-desc { text-align: center; text-transform: uppercase; font-size: 18px; font-size: 1.2em; letter-spacing: 2px; margin: 0; margin-bottom: 50px; }
+.section-desc { text-align: center; text-transform: uppercase; font-size: 18px; font-size: 1.2em; font-weight: bold; color: rgb(19, 25, 41); letter-spacing: 2px; margin: 0; margin-bottom: 50px; }
 
 .boxed-title { text-transform: uppercase; border: 1px solid #ccc; border-radius: 5px; display: inline-block; padding: 10px 20px; font-size: 30px; font-size: 2em; line-height: 1; }
 
@@ -580,3 +580,5 @@ p { margin-top: 0; line-height: 2; }
 /* Footer Styles */
 .site-footer { background-color: #181617; padding: 20px 0; text-align: center; }
 .site-footer p { margin: 0; }
+/* Set Logo Styles */
+.paragraph {font-size: medium; color: #000;}
